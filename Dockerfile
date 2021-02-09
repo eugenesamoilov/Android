@@ -21,7 +21,7 @@ RUN echo y | android-sdk-linux/tools/bin/sdkmanager "platforms;android-${ANDROID
 
 RUN yes | android-sdk-linux/tools/bin/sdkmanager --licenses
 
-RUN gem install rake bundler:1.17.2 fastlane -NV
+# RUN gem install rake bundler:1.17.2 fastlane -NV
 
 #COPY execute.sh /execute.sh
 
